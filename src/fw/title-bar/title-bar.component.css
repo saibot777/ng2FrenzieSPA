@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+}
+
+.title-bar {
+  flex-grow: 1;
+  display: flex;
+  min-height: 80px;
+}
+
+.menu-area {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-right: 20px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+h4 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  color: #32CD32;
+}
