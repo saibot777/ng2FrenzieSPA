@@ -1,41 +1,39 @@
 :host {
-  height: 30px;
-  text-align: right;
-  padding-top: 4px;
-  color: #888;
-  margin-top: auto;
-  margin-bottom: auto;
+    height: 30px;
+    text-align: right;
+    padding-top: 4px;
+    color: #888;
 }
 
 div {
-  display: inline;
-  margin-left: 34px;
+    display: inline;
+    margin-left: 34px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .top-image {
-  width: 28px;
-  height: 28px;
-  margin-left: 8px;
-  vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    vertical-align: middle;
 }
 
-.flag-image {
-  width: 32px;
-  height: 26px;
-  vertical-align: middle;
-  /*margin-right: -16px;*/
-}
-
-img:hover {
+.top-image:hover {
   opacity: 0.7;
 }
 
-span.glyphicon {
-  margin-left: 4px;
-  font-size: 11px;
-  cursor: pointer;
+.flag-image {
+    width: 22px;
+    height: 16px;
+    vertical-align: middle;
+    /*margin-right: -16px;*/
 }
+
+span.glyphicon {
+    margin-left: 4px;
+    font-size: 11px;
+}
+
