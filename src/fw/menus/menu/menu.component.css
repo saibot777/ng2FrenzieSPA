@@ -1,6 +1,6 @@
 :host {
-    display: flex;
-    align-items: flex-end;
+    display: flex; 
+    align-items: flex-end; 
     justify-content: flex-end;
     flex-grow: 1;
 }
@@ -25,10 +25,9 @@ li {
 }
 
 button {
-  margin-top:20px;
+    margin-top: 20px;
 }
-
 button.horizontal {
-  margin-left: 20px;
-  margin-bottom: 2px;
+    margin-left: 20px;
+    margin-bottom: 2px;
 }
