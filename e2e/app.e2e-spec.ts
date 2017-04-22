@@ -1,10 +1,10 @@
-import { GreenNationsPage } from './app.po';
+import { ReplacePage } from './app.po';
 
-describe('green-nations App', function() {
-  let page: GreenNationsPage;
+describe('replace App', () => {
+  let page: ReplacePage;
 
   beforeEach(() => {
-    page = new GreenNationsPage();
+    page = new ReplacePage();
   });
 
   it('should display message saying app works', () => {

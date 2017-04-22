@@ -21,13 +21,15 @@ import { RegisterUserComponent } from './users/register-user/register-user.compo
 import { DynamicFormComponent } from './dynamic-forms/dynamic-form/dynamic-form.component';
 import { DynamicFieldComponent } from './dynamic-forms/dynamic-field/dynamic-field.component';
 import {PanelComponent} from "./panels/panel/panel.component";
+import {NoopAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule,
     FormsModule,
-    ReactiveFormsModule
+    NoopAnimationsModule,
+    ReactiveFormsModule,
   ],
   declarations: [
     FrameworkBodyComponent,

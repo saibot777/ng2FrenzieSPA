@@ -19,6 +19,7 @@ import { AuthGuard } from './services/auth-guard.service';
 import { AppDataService } from './services/app-data.service';
 import {CountryPanelComponent} from "./panels/country-panel/country-panel.component";
 import { ImagePanelComponent } from './panels/image-panel/image-panel.component';
+import {NoopAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ImagePanelComponent } from './panels/image-panel/image-panel.component'
   ],
   imports: [
     BrowserModule,
+    NoopAnimationsModule,
     FormsModule,
     HttpModule,
     FwModule,
